@@ -2,18 +2,91 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 
-  <title>My Resume</title>
+<title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<!--
+In reference to google fonts, one must put one-quotation marks around the name of the font!
+-->
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container animated fadeIn">
+  <header class="main-header">
+    <section class="name-desc">
+      <h1 class="name">Roberto Ramirez</h1>
+      <h2 class="sub-name">Full Stack Web Developer</h2>
+    </section>
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="main-content">
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p>21 year old web developer in training. I currently reside in upstate New York, about two hours from New York City.
+        I studied computer science at my local community college, but soon learned that the traditional way of learning was not
+        for me. I strive in hands on learning, I love to learn by doing. I'd like to think that I am a fast learner, I always keep 
+        an open mind and welcome all ideas and criticism, which I believe has helped me not only with becoming a better student,
+        but a better person overall. I am absolutely passionate about technology, ever since I rooted my first android
+        phone when I was 13, a whole new world opened up to me. Ever since I have tried to dabble and experience anything to
+        do with technology in all its applications. My ultimate goal is to become an innovator and create something that will
+        positively affect the lives of millions, because I believe that everyone should have an opportunity to achieve their dreams.
+      </p>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <p>My own intuition has allowed me to expirement around with different technolgies and I continue to learn new things everyday!</p>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Less for CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>Terminal</li>
+        <li>PhotoShop</li>
+        <li>Adobe Premier</li>
+        <li>Logic Pro X</li>
+        <li>Ableton Live</li>
+      </ul>
+    </section>
+    <section class="work-history">
+      <h2>Work History</h2>
+      <p>My customer service experience has allowed my to think with a mindset of having clients' needs and satisfaction
+        set as my priority no matter what I am working on.</p>
+      <ul class="work-experience">
+        <li>Panera Bread Co - Catering Coordinator : 2017 - Present</li>
+        <li>American Eagle Outfitters - Sales Advisor : 2016 - 2017</li> 
+        <li>Coyote Grill - Host : 2015 - 2016</li>
+      </ul>
+    </section>
+    <section class="contact">
+      <h2>Let me be a valuable asset to your team, get in contact with me!</h2>
+      <button type="button" class="email-btn">Email Me</button>
+      <button type="button" class="linked-in-btn">LinkedIn</button>
+    </section>
+  </section>
+  <Footer>
+    <nav class="nav-bar-footer">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+    <p>&copy; Roberto Ramirez</p>
+  </Footer>
+  </div>
 </body>
 </html>
